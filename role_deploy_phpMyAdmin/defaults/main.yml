@@ -1,0 +1,9 @@
+---
+### MariaDB ###
+root_pass: "P@ssw0rd"
+
+### phpMyAdmin ###
+download_url: "https://files.phpmyadmin.net/phpMyAdmin/5.1.1/phpMyAdmin-5.1.1-all-languages.tar.gz"
+download_path: /root
+
+phpmyadmin_directory: /usr/share/phpMyAdmin

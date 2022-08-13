@@ -1,0 +1,12 @@
+---
+- name: Install the LEMP (NGINX + MariaDB + PHP) stack on Debian
+  include_tasks: deploy_LEMP_stack.yaml
+
+- name: Install and deploy phpMyAdmin on Debian
+  include_tasks: deploy_phpMyAdmin.yaml
+
+- debug:
+    msg: 
+      - "Open the browser 'http://{{ ansible_ssh_host }}'"
+      - "Loggin: root"
+      - "Password: {{ root_pass }}"

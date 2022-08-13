@@ -1,0 +1,7 @@
+--- 
+- name: Install phpMyAdmin from Nginx on Debian
+  hosts: all 
+  become: true 
+
+  roles:
+    - role_deploy_phpMyAdmin

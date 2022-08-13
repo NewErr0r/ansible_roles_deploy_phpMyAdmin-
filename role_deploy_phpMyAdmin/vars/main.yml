@@ -1,0 +1,11 @@
+---
+packages_mariadb:
+  - mariadb-server
+  - python3-pymysql
+
+packages_php:
+  - php-fpm 
+  - php-mysqli
+  - php-xml
+
+path_phpMyAdmin_conf: /etc/nginx/conf.d/phpMyAdmin.conf
